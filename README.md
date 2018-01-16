@@ -2,57 +2,57 @@
 
 ### Lista de URLs da plataforma Vtex ###
 
-# 1. Todos os produtos:
+### 1. Todos os produtos: ###
 ```html
 http://minhaloja.com.br/api/catalog_system/pub/products/search/
 ```
 
-# 2. Produto por ID:
+### 2. Produto por ID: ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/api/catalog_system/pub/products/search/?fq=productId:10440
 ```
 
-# 3. Produto por categoria:
+### 3. Produto por categoria: ###
 ```html
 http://minhaloja.com.br/api/catalog_system/pub/products/search/perfume
 ```
 
-# 4. Todas as categorias:
+### 4. Todas as categorias: ###
 ```html
 http://minhaloja.com.br/api/catalog_system/pub/category/tree/3
 ```
 
-# 5. Meus pedidos (Header, keys e etc):
+### 5. Meus pedidos (Header, keys e etc): ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/api/oms/pvt/orders/583003059415-01
 ```
 
-# 6. Buscar todos produtos:
+### 6. Buscar todos produtos: ###
 ```html
 http://www.minhaloja.com.br/busca/?fq=0
 ```
 
-# 7. Variações do produto:
+### 7. Variações do produto: ###
 ```html
 /api/catalog_system/pub/products/variations/66
 ```
 
-# 8. Buscar pelo EAN:
+### 8. Buscar pelo EAN: ###
 ```html
 http:/minhaloja.vtexcommercestable.com.br/api/catalog_system/pub/products/search?fq=alternateIds_Ean:7898526205947
 ```
 
-# 9. Produto por SKU:
+### 9. Produto por SKU: ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/produto/sku/6865
 ```
 
-# 10. Produto por SKU:
+### 10. Produto por SKU: ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/produto/sku/6865
 ```
 
-# 11. OrderForm:
+### 11. OrderForm: ###
 ```html
 vtexjs.checkout.getOrderForm().done(function(orderForm) {
 
@@ -90,22 +90,22 @@ $.ajax({
 
 ```
 
-# 12. Produto por marca:
+### 12. Produto por marca: ###
 ```html
 /api/catalog_system/pub/products/search/?fq=B:<id_marca>
 ```
 
-# 13. Produto por coleção:
+### 13. Produto por coleção: ###
 ```html
 /api/catalog_system/pub/products/search/?fq=H:<id_colecao>
 ```
 
-# 14. Página de coleção:
+### 14. Página de coleção: ###
 ```html
 /busca?fq=H:139
 ```
 
-# 15. Cálculo de frete:
+### 15. Cálculo de frete: ###
 ```html
 // O `items` deve ser um array de objetos que contenham, no mínimo, as informações abaixo
 
@@ -138,7 +138,7 @@ vtexjs.checkout.simulateShipping(items, postalCode, country)
 });
 ```
 
-# 16. Informações de endereço pelo CEP:
+### 16. Informações de endereço pelo CEP: ###
 ```html
 // O `postalCode` deve ser o CEP do cliente, no caso do Brasil
 var postalCode = '06416070';
@@ -160,67 +160,67 @@ vtexjs.checkout.getAddressInformation(address)
 
 ```
 
-# 17. Compre junto:
+### 17. Compre junto: ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/comprejuntosku/19
 ```
 
-# 18. Ajax multiplos:
+### 18. Ajax multiplos: ###
 ```html
 $.when($.getJSON(graphUSER), $.getJSON(graphPOSTS)).done(function (user, posts) { });
 ```
 
-# 19. Profile:
+###19. Profile: ###
 ```html
 https://www.loja.com.br/api/checkout/pub/profiles/?email=email@bonito.com&sc=1
 ```
 
-# 20. Pedidos (Get):
+### 20. Pedidos (Get): ###
 ```html
 /api/checkout/pub/orders/
 ```
 
-# 21. Pedido (Get):
+### 21. Pedido (Get): ###
 ```html
 /api/checkout/pub/orders/v1104098smpr-01
 ```
 
-# 22. Info do cliente logado:
+### 22. Info do cliente logado: ###
 ```html
 /no-cache/profileSystem/getProfile
 ```
 
-# 23. Infos orderForm:
+### 23. Infos orderForm: ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/api/checkout/pub/orderForm
 ```
 
-# 24. Busca página:
+### 24. Busca página: ###
 ```html
 http://minhaloja.cl/buscapagina?sl=481c7748-cdc5-44f0-93c2-6ecf4cccc4ee&PS=7&cc=7&sm=0&PageNumber=3&fq=H:138
 ```
 
-# 25. URLs orders:
+### 25. URLs orders: ###
 ```html
 https://documenter.getpostman.com/view/94611/oms/Hs41#e-c5c7-d934-c232-b37f7b774635
 ```
 
-# 26. URLs Logistics:
+### 26. URLs Logistics: ###
 ```html
 https://documenter.getpostman.com/view/3848/logistics/Hs42
 ```
 
-# 27. URLs pricing:
+### 27. URLs pricing: ###
 ```html
 https://documenter.getpostman.com/view/3442/pricing/Hs8L
 ```
 
-# 28. PCI:
+### 28. PCI: ###
 ```html
 https://documenter.getpostman.com/view/322855/pci/Hs3y
 ```
 
-# 29. Attachment:
+### 29. Attachment: ###
 ```html
 vtexjs.checkout.getOrderForm().then(function(orderForm) {
     var shippingData = orderForm.shippingData;
