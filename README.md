@@ -47,12 +47,7 @@ http:/minhaloja.vtexcommercestable.com.br/api/catalog_system/pub/products/search
 http://minhaloja.vtexcommercestable.com.br/produto/sku/6865
 ```
 
-### 10. Produto por SKU: ###
-```html
-http://minhaloja.vtexcommercestable.com.br/produto/sku/6865
-```
-
-### 11. OrderForm: ###
+### 10. OrderForm: ###
 ```html
 vtexjs.checkout.getOrderForm().done(function(orderForm) {
 
@@ -90,19 +85,24 @@ $.ajax({
 
 ```
 
-### 12. Produto por marca: ###
+### 11. Produto por marca: ###
 ```html
 /api/catalog_system/pub/products/search/?fq=B:<id_marca>
 ```
 
-### 13. Produto por coleção: ###
+### 12. Produto por coleção: ###
 ```html
 /api/catalog_system/pub/products/search/?fq=H:<id_colecao>
 ```
 
-### 14. Página de coleção: ###
+### 13. Página de coleção: ###
 ```html
 /busca?fq=H:139
+```
+
+### 14. Linkando mais de uma coleção: ###
+```html
+http://www.loja.com.br/135/147/148?map=productClusterSearchableIds,productClusterSearchableIds,productClusterSearchableIds
 ```
 
 ### 15. Cálculo de frete: ###
