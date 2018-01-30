@@ -170,7 +170,7 @@ http://minhaloja.vtexcommercestable.com.br/comprejuntosku/19
 $.when($.getJSON(graphUSER), $.getJSON(graphPOSTS)).done(function (user, posts) { });
 ```
 
-###19. Profile: ###
+### 19. Profile: ###
 ```html
 https://www.loja.com.br/api/checkout/pub/profiles/?email=email@bonito.com&sc=1
 ```
