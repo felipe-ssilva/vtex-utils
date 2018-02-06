@@ -165,7 +165,7 @@ vtexjs.checkout.getAddressInformation(address)
 http://minhaloja.vtexcommercestable.com.br/comprejuntosku/19
 ```
 
-### 18. Ajax multiplos: ###
+### 18. Ajax múltiplos: ###
 ```html
 $.when($.getJSON(graphUSER), $.getJSON(graphPOSTS)).done(function (user, posts) { });
 ```
