@@ -231,7 +231,7 @@ vtexjs.checkout.getOrderForm().then(function(orderForm) {
 });
 ```
 
-### 30. Busca por multiplos skus ###
+### 30. Busca por múltiplos skus ###
 ```html
 https://minhaloja.com/api/catalog_system/pub/products/search/?fq=skuId:625&fq=skuId:28 
 ```
