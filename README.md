@@ -1,6 +1,6 @@
 # Vtex urls
 
-### Lista de URLs da plataforma Vtex ###
+### Lista de URLs da Vtex ###
 
 ### 1. Todos os produtos: ###
 ```html
