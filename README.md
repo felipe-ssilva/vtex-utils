@@ -235,3 +235,8 @@ vtexjs.checkout.getOrderForm().then(function(orderForm) {
 ```html
 https://minhaloja.com/api/catalog_system/pub/products/search/?fq=skuId:625&fq=skuId:28 
 ```
+
+### 31. API de similares, quem comprou, comprou tbm e etc ###
+```html
+https://documenter.getpostman.com/view/845/search-103/Hs43#e8e08b8f-4036-bfa0-8196-e8267683300a
+```
