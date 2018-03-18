@@ -42,12 +42,7 @@ http://www.minhaloja.com.br/busca/?fq=0
 http:/minhaloja.vtexcommercestable.com.br/api/catalog_system/pub/products/search?fq=alternateIds_Ean:7898526205947
 ```
 
-### 9. Produto por SKU: ###
-```html
-http://minhaloja.vtexcommercestable.com.br/produto/sku/6865
-```
-
-### 10. OrderForm: ###
+### 9. OrderForm: ###
 ```html
 vtexjs.checkout.getOrderForm().done(function(orderForm) {
 
@@ -85,27 +80,27 @@ $.ajax({
 
 ```
 
-### 11. Produto por marca: ###
+### 10. Produto por marca: ###
 ```html
 /api/catalog_system/pub/products/search/?fq=B:<id_marca>
 ```
 
-### 12. Produto por coleção: ###
+### 11. Produto por coleção: ###
 ```html
 /api/catalog_system/pub/products/search/?fq=H:<id_colecao>
 ```
 
-### 13. Página de coleção: ###
+### 12. Página de coleção: ###
 ```html
 /busca?fq=H:139
 ```
 
-### 14. Linkando mais de uma coleção: ###
+### 13. Linkando mais de uma coleção: ###
 ```html
 http://www.loja.com.br/135/147/148?map=productClusterSearchableIds,productClusterSearchableIds,productClusterSearchableIds
 ```
 
-### 15. Cálculo de frete: ###
+### 14. Cálculo de frete: ###
 ```html
 // O `items` deve ser um array de objetos que contenham, no mínimo, as informações abaixo
 
@@ -138,7 +133,7 @@ vtexjs.checkout.simulateShipping(items, postalCode, country)
 });
 ```
 
-### 16. Informações de endereço pelo CEP: ###
+### 15. Informações de endereço pelo CEP: ###
 ```html
 // O `postalCode` deve ser o CEP do cliente, no caso do Brasil
 var postalCode = '06416070';
@@ -160,67 +155,67 @@ vtexjs.checkout.getAddressInformation(address)
 
 ```
 
-### 17. Compre junto: ###
+### 16. Compre junto: ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/comprejuntosku/19
 ```
 
-### 18. Ajax múltiplos: ###
+### 17. Ajax múltiplos: ###
 ```html
 $.when($.getJSON(graphUSER), $.getJSON(graphPOSTS)).done(function (user, posts) { });
 ```
 
-### 19. Profile: ###
+### 18. Profile: ###
 ```html
 https://www.loja.com.br/api/checkout/pub/profiles/?email=email@bonito.com&sc=1
 ```
 
-### 20. Pedidos (Get): ###
+### 19. Pedidos (Get): ###
 ```html
 /api/checkout/pub/orders/
 ```
 
-### 21. Pedido (Get): ###
+### 20. Pedido (Get): ###
 ```html
 /api/checkout/pub/orders/v1104098smpr-01
 ```
 
-### 22. Info do cliente logado: ###
+### 21. Info do cliente logado: ###
 ```html
 /no-cache/profileSystem/getProfile
 ```
 
-### 23. Infos orderForm: ###
+### 22. Infos orderForm: ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/api/checkout/pub/orderForm
 ```
 
-### 24. Busca página: ###
+### 23. Busca página: ###
 ```html
 http://minhaloja.cl/buscapagina?sl=481c7748-cdc5-44f0-93c2-6ecf4cccc4ee&PS=7&cc=7&sm=0&PageNumber=3&fq=H:138
 ```
 
-### 25. URLs orders: ###
+### 24. URLs orders: ###
 ```html
 https://documenter.getpostman.com/view/94611/oms/Hs41#e-c5c7-d934-c232-b37f7b774635
 ```
 
-### 26. URLs Logistics: ###
+### 25. URLs Logistics: ###
 ```html
 https://documenter.getpostman.com/view/3848/logistics/Hs42
 ```
 
-### 27. URLs pricing: ###
+### 26. URLs pricing: ###
 ```html
 https://documenter.getpostman.com/view/3442/pricing/Hs8L
 ```
 
-### 28. PCI: ###
+### 27. PCI: ###
 ```html
 https://documenter.getpostman.com/view/322855/pci/Hs3y
 ```
 
-### 29. Attachment: ###
+### 28. Attachment: ###
 ```html
 vtexjs.checkout.getOrderForm().then(function(orderForm) {
     var shippingData = orderForm.shippingData;
@@ -231,12 +226,12 @@ vtexjs.checkout.getOrderForm().then(function(orderForm) {
 });
 ```
 
-### 30. Busca por múltiplos skus ###
+### 29. Busca por múltiplos skus ###
 ```html
 https://minhaloja.com/api/catalog_system/pub/products/search/?fq=skuId:625&fq=skuId:28 
 ```
 
-### 31. API de similares, quem comprou, comprou tbm e etc ###
+### 30. API de similares, quem comprou, comprou tbm e etc ###
 ```html
 https://documenter.getpostman.com/view/845/search-103/Hs43#e8e08b8f-4036-bfa0-8196-e8267683300a
 ```
