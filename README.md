@@ -22,7 +22,7 @@ http://minhaloja.com.br/api/catalog_system/pub/products/search/perfume
 http://minhaloja.com.br/api/catalog_system/pub/category/tree/3
 ```
 
-### 5. Meus pedidos (Header, keys e etc): ###
+### 5. Meus pedidos (Necessário usar Header, keys e etc): ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/api/oms/pvt/orders/583003059415-01
 ```
