@@ -112,8 +112,6 @@ var items = [{
 
 // O `postalCode` deve ser o CEP do cliente, no caso do Brasil
 var postalCode = '06416070';
-// Desse jeito também funciona
-// var postalCode = '22250040';
 
 // O `country` deve ser a sigla de 3 letras do país
 var country = 'BRA';
@@ -137,8 +135,6 @@ vtexjs.checkout.simulateShipping(items, postalCode, country)
 ```html
 // O `postalCode` deve ser o CEP do cliente, no caso do Brasil
 var postalCode = '06416070';
-// Desse jeito também funciona
-// var postalCode = '22250040';
 
 // O `country` deve ser a sigla de 3 letras do país
 var country = 'BRA';
