@@ -170,52 +170,47 @@ $.when($.getJSON(graphUSER), $.getJSON(graphPOSTS)).done(function (user, posts) 
 https://www.loja.com.br/api/checkout/pub/profiles/?email=email@bonito.com&sc=1
 ```
 
-### 19. Pedidos (Get): ###
-```html
-/api/checkout/pub/orders/
-```
-
-### 20. Pedido (Get): ###
+### 19. Pedido (Get): ###
 ```html
 /api/checkout/pub/orders/v1104098smpr-01
 ```
 
-### 21. Info do cliente logado: ###
+### 20. Info do cliente logado: ###
 ```html
 /no-cache/profileSystem/getProfile
 ```
 
-### 22. Infos orderForm: ###
+### 21. Infos orderForm: ###
 ```html
 http://minhaloja.vtexcommercestable.com.br/api/checkout/pub/orderForm
 ```
 
-### 23. Busca página: ###
+### 22. Busca página: ###
 ```html
 http://minhaloja.cl/buscapagina?sl=481c7748-cdc5-44f0-93c2-6ecf4cccc4ee&PS=7&cc=7&sm=0&PageNumber=3&fq=H:138
 ```
 
-### 24. URLs orders: ###
+### 23. URLs orders: ###
 ```html
 https://documenter.getpostman.com/view/94611/oms/Hs41#e-c5c7-d934-c232-b37f7b774635
 ```
 
-### 25. URLs Logistics: ###
+### 24. URLs Logistics: ###
 ```html
 https://documenter.getpostman.com/view/3848/logistics/Hs42
 ```
 
-### 26. URLs pricing: ###
+### 25. URLs pricing: ###
 ```html
 https://documenter.getpostman.com/view/3442/pricing/Hs8L
 ```
 
-### 27. PCI: ###
+### 26. PCI: ###
 ```html
 https://documenter.getpostman.com/view/322855/pci/Hs3y
 ```
 
-### 28. Attachment: ###
+### 27. Attachment: ###
 ```html
 vtexjs.checkout.getOrderForm().then(function(orderForm) {
     var shippingData = orderForm.shippingData;
@@ -226,12 +221,12 @@ vtexjs.checkout.getOrderForm().then(function(orderForm) {
 });
 ```
 
-### 29. Busca por múltiplos skus ###
+### 28. Busca por múltiplos skus ###
 ```html
 https://minhaloja.com/api/catalog_system/pub/products/search/?fq=skuId:625&fq=skuId:28 
 ```
 
-### 30. API de similares, quem comprou, comprou tbm e etc ###
+### 29. API de similares, quem comprou, comprou tbm e etc ###
 ```html
 https://documenter.getpostman.com/view/845/search-103/Hs43#e8e08b8f-4036-bfa0-8196-e8267683300a
 ```
