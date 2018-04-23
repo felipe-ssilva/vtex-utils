@@ -226,3 +226,8 @@ https://minhaloja.com/api/catalog_system/pub/products/search/?fq=skuId:625&fq=sk
 ```html
 https://documenter.getpostman.com/view/845/search-103/Hs43#e8e08b8f-4036-bfa0-8196-e8267683300a
 ```
+
+### 30. Fazer um pedido regular usando as APIs ###
+```html
+http://help.vtex.com/pt/tutorial/fazer-um-pedido-regular-usando-as-apis-da-vtex
+```
