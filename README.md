@@ -231,3 +231,7 @@ https://documenter.getpostman.com/view/845/search-103/Hs43#e8e08b8f-4036-bfa0-81
 ```html
 http://help.vtex.com/pt/tutorial/fazer-um-pedido-regular-usando-as-apis-da-vtex
 ```
+### 31. Busca categoria e faixa de preço ###
+```html
+/busca/?fq=H:100&fq=P:[20TO50]
+```
