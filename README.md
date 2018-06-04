@@ -90,9 +90,9 @@ $.ajax({
 /api/catalog_system/pub/products/search/?fq=H:<id_colecao>
 ```
 
-### 12. Página de coleção: ###
+### 12. Busca categoria, coleção e faixa de preço ###
 ```html
-/busca?fq=H:139
+/busca/?fq=C:4&fq=H:100&fq=P:[20TO50]
 ```
 
 ### 13. Linkando mais de uma coleção: ###
@@ -230,8 +230,4 @@ https://documenter.getpostman.com/view/845/search-103/Hs43#e8e08b8f-4036-bfa0-81
 ### 30. Fazer um pedido regular usando as APIs ###
 ```html
 http://help.vtex.com/pt/tutorial/fazer-um-pedido-regular-usando-as-apis-da-vtex
-```
-### 31. Busca categoria, coleção e faixa de preço ###
-```html
-/busca/?fq=C:4&fq=H:100&fq=P:[20TO50]
 ```
