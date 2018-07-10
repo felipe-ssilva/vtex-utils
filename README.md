@@ -234,5 +234,5 @@ http://help.vtex.com/pt/tutorial/fazer-um-pedido-regular-usando-as-apis-da-vtex
 
 ### 31. API Pública de pedidos
 ```html
-/api/oms/pub/user/user@email.com.br/orders/v78452026bot-01
+/api/oms/pub/user/user@email.com.br/orders/numeroDoPedido
 ```
