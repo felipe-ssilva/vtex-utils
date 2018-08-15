@@ -97,7 +97,7 @@ $.ajax({
 
 ### 13. Linkando mais de uma coleção: ###
 ```html
-http://www.loja.com.br/135/147/148?map=productClusterSearchableIds,productClusterSearchableIds,productClusterSearchableIds
+/135/147/148?map=productClusterSearchableIds,productClusterSearchableIds,productClusterSearchableIds
 ```
 
 ### 14. Cálculo de frete: ###
