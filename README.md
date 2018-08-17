@@ -236,3 +236,10 @@ http://help.vtex.com/pt/tutorial/fazer-um-pedido-regular-usando-as-apis-da-vtex
 ```html
 /api/oms/pub/user/user@email.com.br/orders/numeroDoPedido
 ```
+
+### 32. Observa alteração no OrderForm
+```html
+$(window).on('orderFormUpdated.vtex', function() {
+   console.log('OrderForm updated!')
+});
+```
