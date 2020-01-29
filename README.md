@@ -43,7 +43,7 @@ http:/minhaloja.vtexcommercestable.com.br/api/catalog_system/pub/products/search
 ```
 
 ### 9. OrderForm: ###
-```html
+```javascript
 vtexjs.checkout.getOrderForm().done(function(orderForm) {
 
 	var orderFormId = orderForm.orderFormId;
@@ -101,7 +101,7 @@ $.ajax({
 ```
 
 ### 14. Cálculo de frete: ###
-```html
+```javascript
 // O `items` deve ser um array de objetos que contenham, no mínimo, as informações abaixo
 
 var items = [{
@@ -132,7 +132,7 @@ vtexjs.checkout.simulateShipping(items, postalCode, country)
 ```
 
 ### 15. Informações de endereço pelo CEP: ###
-```html
+```javascript
 // O `postalCode` deve ser o CEP do cliente, no caso do Brasil
 var postalCode = '06416070';
 
@@ -157,7 +157,7 @@ http://minhaloja.vtexcommercestable.com.br/comprejuntosku/19
 ```
 
 ### 17. Ajax múltiplos: ###
-```html
+```javascript
 $.when($.getJSON(graphUSER), $.getJSON(graphPOSTS)).done(function (user, posts) { });
 ```
 
@@ -238,8 +238,38 @@ http://help.vtex.com/pt/tutorial/fazer-um-pedido-regular-usando-as-apis-da-vtex
 ```
 
 ### 32. Observa alteração no OrderForm
-```html
+```javascript
 $(window).on('orderFormUpdated.vtex', function() {
    console.log('OrderForm updated!')
 });
+```
+
+### 33. Simulação de frete
+```javascript
+function getSla(id, zipCode) {
+    var DataToSend = {
+        'items': [{
+            'id': id,
+            'quantity': 1,
+            'seller': '1'
+        }],
+        'postalCode': zipCode,
+        'country': 'ARG',
+    };
+
+    $.ajax({
+        'type': 'POST',
+        'dataType': 'json',
+        'contentType': 'application/json',
+        'url': '/api/checkout/pub/orderForms/simulation/?sc=1',
+        'data': JSON.stringify(DataToSend),
+        'success': function(ResponseData) {
+           `//CUSTOM` function
+	    createTable(ResponseData)
+        },
+        'error': function(AjaxError) {
+	    console.log('Error')
+        }
+    });
+}
 ```
