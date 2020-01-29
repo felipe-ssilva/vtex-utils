@@ -254,7 +254,7 @@ function getSla(id, zipCode) {
             'seller': '1'
         }],
         'postalCode': zipCode,
-        'country': 'ARG',
+        'country': 'BRA',
     };
 
     $.ajax({
