@@ -207,7 +207,7 @@ https://documenter.getpostman.com/view/322855/pci/Hs3y
 ```
 
 ### 27. Attachment: ###
-```html
+```javascript
 vtexjs.checkout.getOrderForm().then(function(orderForm) {
     var shippingData = orderForm.shippingData;
     shippingData.availableAddresses.splice(1, 1);
