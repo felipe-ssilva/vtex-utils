@@ -1,9 +1,4 @@
-# Vtex urls
-
-## Authors
-
-| [<img src="https://avatars2.githubusercontent.com/u/4562886?v=4&s=130" width="130px;"><br><sub>@felipe-ssilva</sub>](https://github.com/felipe-ssilva) |
-| :---: |
+# Vtex Utils
 
 ### Lista de URLs da Vtex ###
 
@@ -278,3 +273,7 @@ function getSla(id, zipCode) {
     });
 }
 ```
+## Authors
+
+| [<img src="https://avatars2.githubusercontent.com/u/4562886?v=4&s=130" width="130px;"><br><sub>@felipe-ssilva</sub>](https://github.com/felipe-ssilva) |
+| :---: |
