@@ -1,7 +1,5 @@
 # Vtex Utils
 
-### Lista de URLs da Vtex ###
-
 ### 1. Todos os produtos: ###
 ```html
 http://minhaloja.com.br/api/catalog_system/pub/products/search/
